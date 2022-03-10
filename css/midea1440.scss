@@ -9,13 +9,13 @@
         .conteiner{
             width: 77%;
             grid-template-columns: 23% 23% 23% 23%;
-            gap: 1;
+            
             
     
             .menu__card{
                 grid-row: 1 / span 2;
                 grid-column: unset;
-                height: 100%;
+               
             }
     
             .card__Report{

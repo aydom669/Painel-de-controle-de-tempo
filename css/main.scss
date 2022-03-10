@@ -78,17 +78,15 @@ body{
 
 .Fundo__card{
   //  border: 1px solid red;
-    border-radius: 15px;
+    border-radius: 11px;
     background-repeat: no-repeat;
     background-position: 95% -1rem;
 
     .card__box{
        background: $Dark-blue;
        margin-top: 3rem;
-       border-radius: 8px;
-       height: 100%;
-       width: 100%;
-
+       border-radius: 10px;
+       
        &:hover{
            background: $card__Hover;
            transition: 0.5s;
@@ -103,8 +101,7 @@ body{
          align-items: center;
          padding: 1rem;
          position: relative;
-         height: 100%;
-         width: 100%;
+        
         
          
 
