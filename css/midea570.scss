@@ -1,0 +1,27 @@
+@media (min-width: 570px) {
+    
+    .conteiner{
+        display: grid;
+        grid-template-columns: 48% 48%;
+
+        .menu__card{
+            grid-column: 1 / span 2;
+        }
+
+        .Fundo__card{
+            height: 90%;
+            .card__box{
+                height: 80%;
+                padding: 10px 0;
+                .linha__2{
+                     justify-content: flex-start;
+                     flex-direction: column;
+
+                     .data__Horas{
+                         font-size: 23px;
+                     }
+                }
+            }
+        }
+    }
+}

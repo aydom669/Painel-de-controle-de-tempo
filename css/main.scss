@@ -1,0 +1,194 @@
+body{
+    background-color: $Very-dark-blue;
+  
+}
+
+.conteiner{
+   // border: 1px solid red;
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    
+}
+
+.menu__card{
+    background: $Dark-blue;
+    border-radius: 1.5rem;
+   
+    
+    
+
+    .card__Report{
+        background: $Blue;
+        border-radius: 1.5rem;
+        padding: 3rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1.5rem;
+
+        img{
+            width: 26%;
+            border: 3px solid #fff;
+            border-radius: 50%;
+        }
+
+        .Report{
+            display: flex;
+            color: #fff;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            h2{
+                color: $Pale-Blue;
+                font-size: 1.1rem;
+            }
+
+            p{
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .card__menu{
+        display: flex;
+        justify-content: space-around;
+        color:$Desaturated-blue;
+        align-items: center;
+        padding: 20px 0;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+
+        .menu__link{
+
+            &:hover{
+                color: #fff;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+.Fundo__card{
+  //  border: 1px solid red;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: 95% -1rem;
+
+    .card__box{
+       background: $Dark-blue;
+       margin-top: 3rem;
+       border-radius: 8px;
+       height: 100%;
+       width: 100%;
+
+       &:hover{
+           background: $card__Hover;
+           transition: 0.5s;
+       }
+      
+       
+       
+       .linha{
+        //  border: 1px solid red;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 1rem;
+         position: relative;
+         height: 100%;
+         width: 100%;
+        
+         
+
+         .titulo{
+             color: #fff;
+             font-weight: bold;
+         }
+
+         .pontos{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             cursor: pointer;
+
+             &:hover{
+
+                .ponto{
+                    background: #fff;
+                }
+             }
+            
+             
+
+             .ponto{
+                 
+                 width: 0.4rem;
+                 height:  0.4rem;
+                 background: $Pale-Blue;
+                 border-radius: 50%;
+                 margin-right: 5px;
+                
+
+             }
+             
+         }
+       }
+
+       .linha__2{
+     //   border: 1px solid red;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 10px;
+       
+
+        .data__Horas{
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .data__Descrição{
+            color: $Pale-Blue;
+        }
+      }
+    }
+}
+
+.Work{
+    background-color: $Light-red-work;
+    background-image: url("images/icon-work.svg");
+}
+
+.Play{
+    background-color: $Soft-blue-play;
+    background-image: url("images/icon-play.svg");
+}
+
+.Study{
+    background-color: $Light-red-study;
+    background-image: url("images/icon-study.svg");
+}
+
+.Exercise{
+    background-color: $Lime-green-exercise;
+    background-image: url("images/icon-exercise.svg");
+}
+
+.Social{
+    background-color: $Violet-social;
+    background-image: url("images/icon-social.svg");
+}
+
+.Self_Care{
+    background-color: $Soft-orange-self-care;
+    background-image: url("images/icon-self-care.svg");
+}

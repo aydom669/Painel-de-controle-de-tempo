@@ -1,0 +1,50 @@
+
+// Variaveis color Primary
+
+$Blue: hsl(246, 80%, 60%);
+
+$Light-red-work: hsl(15, 100%, 70%);
+
+$Soft-blue-play: hsl(195, 74%, 62%);
+
+$Light-red-study: hsl(348, 100%, 68%);
+
+$Lime-green-exercise: hsl(145, 58%, 55%);
+
+$Violet-social: hsl(264, 64%, 52%);
+
+$Soft-orange-self-care: hsl(43, 84%, 65%);
+
+$card__Hover: hsl(223 , 41% , 34%);
+
+// Variaveis color Primary / Fim
+
+// Variaveis color Neutral
+
+$Very-dark-blue: hsl(226, 43%, 10%);
+$Dark-blue: hsl(235, 46%, 20%);
+$Desaturated-blue: hsl(235, 45%, 61%);
+$Pale-Blue: hsl(236, 100%, 87%);
+
+// Variaveis color Neutral / Fim
+
+// Typography (card titles e.g. Work, Play)
+
+$font-size: 18px;
+
+// Typography / Fim
+
+// Font Rubik
+
+@import url('https://fonts.googleapis.com/css2? family= Roupa:wght@300;400;600 & family= Poppins:ital,wght@0,100;0,600;1,100;1,300 & family= Roboto:wght@400;500 & family= Rubik:wght@300;400;500 & display=swap');
+
+// Font Rubik / Fim
+
+@import "main";
+@import "midea570";
+@import "midea1440";
+
+
+
+
+
